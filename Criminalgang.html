@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+	<html lang = "en">
+	<head>
+	<title>The Sherlockian | CRIMINAL GANG</title>
+	<meta charset = "UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!--[if lt IE 9]>
+	<script>
+	document.createElement ("header")
+	document.createElement ("nav")
+	document.createElement ("main")
+	document.createElement ("article")
+	document.createElement ("setion")
+	document.createElement ("aside")
+	document.createElement ("div")
+	document.createElement ("footer")
+	document.createElement ("button")
+	</script>
+	<![endif]-->
+	
+	<style>
+
+header, nav, main, section, article, aside, footer, div, img, vid, p, h1, h2, h3, figure, keyframes, slider, button {
+	display: block;
+}
+
+head, body, h1, h2, h3, p, li, a, ul, img, vid, figure,
+header, nav, main, section, article, aside, footer, div, button {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	min-width: 100%;
+}
+
+.topicon {
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+}
+
+.topicon img {
+	width: 300px;
+	height: 60px;
+	margin-bottom: 50px;
+}
+
+
+@media screen and (max-width: 721px) {
+.topicon {
+    margin-left: 130%;
+}
+
+.topicon img {
+	width: 160%;
+	height: 160%;
+	margin-bottom: 20%;
+}
+
+}
+
+
+@media screen and (min-width: 1441px) {
+.topicon {
+	width: 20%;
+	height: 3%;
+}
+
+.topicon img {
+	width: 100%;
+	height: 100%;
+	margin-bottom: 20%;
+}
+
+}
+
+.nav {
+	clear: both;
+	width: 1080px;
+	margin-left: 45px;
+}
+
+
+@media screen and (max-width: 721px) {
+.nav {
+    width: 374%;
+  }
+  
+}
+
+
+@media screen and (min-width: 1441px) {
+.nav {
+    width: 76%;
+  }
+  
+}
+
+
+.nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav li {
+	float: left;
+	width: 208px;
+	background-color: #2d2d2d;
+	text-align: center;
+	border-right: 2px solid black;
+	position: relative;
+	height: 45.5px;
+	line-height: 45.5px;
+	margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 721px) {
+.nav li {
+    width: 19.85%;
+}
+
+.nav li a {
+	font-size: 200%;
+}
+
+}
+
+
+@media screen and (min-width: 1441px) {
+.nav li {
+    width: 19.85%;
+}
+
+.nav li a {
+	font-size: 150%;
+}
+
+}
+
+
+.nav li ul li {
+	float: none;
+	margin-bottom: 0px;
+	width: 203px;
+	text-align: center;
+	padding-left: 5px;
+	border-bottom: 0.5px solid black;
+	margin-top: 0px;
+}
+
+
+@media screen and (max-width: 721px) {
+.nav li ul li {
+	width: 105%;
+	font-size: 75%;
+}
+
+}
+
+
+@media screen and (min-width: 1441px) {
+.nav li ul li {
+	width: 150%;
+	font-size: 100%;
+}
+
+}
+
+
+.nav a {
+	text-decoration: none;
+	color: white;
+	font-family: Blogger Sans;
+	font-size: 18px;
+}
+
+.nav li ul {
+	position: absolute;
+	top: 45px;
+	left: 0;
+	visibility: hidden;
+}
+
+ul li.active {
+	background-color: #4CAF50;
+}
+
+.active a {
+	color: white;
+}
+
+.nav li:hover ul {visibility: visible;}
+.nav li:hover:not(.active) {background-color: #383838; border-bottom: 5px solid #FF4500; height: 40.5px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);}
+.nav li a:hover:not(.activea) {color: #FF4500;}
+
+.search {
+	margin-top: 2px;
+	padding: 0px;
+	margin-right: 90px;
+	float: right;
+	width: 237px;
+	height: 45.5px;
+}
+
+@media screen and (max-width: 721px) {
+.search {
+    display: none;
+  }
+  
+}
+
+
+@media screen and (min-width: 1441px) {
+.search {
+    width: 16%;
+  }
+  
+}
+
+
+.title1 {
+	clear: both;	
+	width: 1255px;
+	margin-left: 45px;
+	padding: 10px;
+	background-image: linear-gradient(to bottom right, yellow, #FF4500);
+	text-align: center;
+	font-family: blogger sans;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+	border-bottom: 3px solid #2d2d2d;
+}
+
+
+@media screen and (max-width: 721px) {
+.title1 {
+	width: 374%;
+	font-size: 500%;
+  }
+  
+}
+
+
+@media screen and (min-width: 1441px) {
+.title1 {
+	width: 91%;
+	font-size: 200%;
+  }
+  
+}
+
+.row {
+	width: 1400px;
+	height: 500px;
+	clear: both;
+}
+
+.column {
+	float: left;
+	padding: 5px;
+	transition: 0.3s;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+	width: 280px;
+	height: 425px;
+	text-align: center;
+	margin-left: 40px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: rgba(255,253,208,0.5);
+	font-family: Adobe Caslon Pro;
+}
+
+.column p {
+	font-size: 15.5px;
+	margin-bottom: 5px;
+}
+
+.column h1 {
+	font-size: 22px;
+	margin-bottom: 5px;
+}
+
+.column img {
+	width: 280px;
+	height: 170px;
+	margin-bottom: 18px;
+}
+
+.column button {
+  font-family: Arial;
+  border: none;
+  outline: 0;
+  padding: 8px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+  width: 280px;
+  font-size: 17px;
+}
+
+.column a {
+	display: block;
+	width: 300px;
+	color: white;
+	text-decoration: none;
+}
+
+.row: :after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.column:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+	padding: 8px;
+	transition-timing-function: linear;
+	transition-delay: .6s;
+}
+
+.column p, h1:hover {
+	cursor: context-menu;
+}
+
+.column button:hover {
+	opacity: 0.7;
+	text-decoration: underline;
+}
+
+
+@media screen and (max-width: 721px) {
+.column {
+	height: 98%;
+  }
+  
+}
+
+
+.row2 {
+	width: 1400px;
+	height: 500px;
+	clear: both;
+}
+
+.column2 {
+	float: left;
+	padding: 5px;
+	transition: 0.3s;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+	width: 280px;
+	height: 425px;
+	text-align: center;
+	margin-left: 40px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: rgba(255,253,208,0.5);
+	font-family: Adobe Caslon Pro;
+}
+
+.column2 p {
+	font-size: 15.5px;
+	margin-bottom: 5px;
+}
+
+.column2 h1 {
+	font-size: 22px;
+	margin-bottom: 5px;
+}
+
+.column2 img {
+	width: 280px;
+	height: 170px;
+	margin-bottom: 18px;
+}
+
+.column2 button {
+  font-family: Arial;
+  border: none;
+  outline: 0;
+  padding: 8px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+  width: 280px;
+  font-size: 17px;
+}
+
+.column2 a {
+	display: block;
+	width: 300px;
+	color: white;
+	text-decoration: none;
+}
+
+.row2: :after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.column2:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+	padding: 8px;
+	transition-timing-function: linear;
+	transition-delay: .6s;
+}
+
+.column2 p, h1:hover {
+	cursor: context-menu;
+}
+
+.column2 button:hover {
+	opacity: 0.7;
+	text-decoration: underline;
+}
+
+
+@media screen and (max-width: 721px) {
+.column2 {
+	height: 98%;
+  }
+  
+}
+
+
+@media screen and (min-width: 1441px) {
+.screen {
+	margin-left: 10%;
+}
+
+}
+
+
+.subtnws {
+	clear: both;
+	width: 1360px;
+}
+
+.subtnws h1 {
+	font-family: blogger sans;
+}
+
+.subtnws a {
+	font-family: blogger sans;
+	color: black;
+	text-decoration: none;
+}
+
+.subtnws p {
+	text-align: right;
+	font-family: Comic Sans MS;
+}
+
+.ltxt {
+	float: left;
+	margin-top: 25px;
+}
+
+.ltxt h1 {
+	width: 800px;
+	text-align: right;
+}
+
+.ltxt p {
+	width: 800px;
+	text-align: right;
+}
+
+.rimgs {
+	float: right;
+	margin-right: 370px;
+	margin-top: 29px;
+}
+
+.rimg1 {
+	width: 60px;
+	margin-right: 15px;
+	float: left;
+}
+
+.rimg1 img {
+	width: 60px;
+	height: 50px;
+}
+
+.rimg1 a {
+	display: block;
+	width: 60px;
+	height: 50px;
+}
+
+.rimg2 {
+	width: 50px;
+	float: right;
+}
+
+.rimg2 img {
+	width: 50px;
+	height: 50px;
+}
+
+.rimg2 a {
+	display: block;
+	width: 50px;
+	height: 50px;
+}
+
+.subtnws: :after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
+@media screen and (min-width: 1441px) {
+.subtnws {
+	margin-left: 12%;
+}
+	
+.subtnws h1 {
+	font-size: 200%;
+}
+
+.subtnws p {
+	font-size: 150%;
+}
+
+.rimg1 img {
+	height: 125%;
+	width: 125%;
+}
+
+.rimg2 img {
+	height: 125%;
+	width: 125%;
+}
+
+}
+
+
+.tparw {
+	clear: both;
+	margin-left: 1360px;
+	margin-bottom: 15px;
+	margin-right: 25px;
+}
+
+.tparw img {
+	width: 50px;
+	height: 30px;
+}
+
+
+@media screen and (min-width: 1441px) {
+.tparw img {
+	margin-left: 90%;
+}
+
+}
+
+
+.footer {
+	clear: both;
+	width: 1440px;
+	background-color: #002a32;
+}
+
+.bottomicon {
+	width: 245px;
+	margin-left: 550px;
+	padding-top: 25px;
+}
+
+.bottomicon img {
+	width: 245px;
+	height: 50px;
+}
+
+.bottomicon img:hover {
+	opacity: 0.9;
+}
+
+.leftf a, .rightf a {
+	color: cyan;
+	text-decoration: underline;
+	text-decoration-color: white;
+}
+
+.leftf a:hover {
+	text-decoration-color: cyan;
+}
+
+.rightf a:hover {
+	text-decoration-color: cyan;
+}
+
+.leftf {
+	margin-top: 20px;
+	width: 720px;
+	float: left;
+	font-family: blogger sans;
+}
+
+.leftf h1 {
+	color: white;
+	font-size: 20px;
+	margin-left: 170px;
+}
+
+.leftf h2 {
+	text-align: left;
+	margin-left: 170px;
+	margin-top: 25px;
+	font-size: 24px;
+}
+
+.rightf {
+	margin-top: 20px;
+	width: 720px;
+	float: right;
+	font-family: blogger sans;
+}
+
+.rightf h1 {
+	color: white;
+	margin-left: 250px;
+	font-size: 20px;
+}
+
+.rightf h2 {
+	margin-left: 250px;
+	margin-top: 25px;
+	font-size: 20px;
+}
+
+.col1f, col2f {
+	float: left;
+}
+
+.col1f {
+	width: 238px;
+}
+
+.col2f {
+	margin-right: 50px;
+	width: 475px;
+}
+
+.rightf: :after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.comp a {
+	color: black;
+	text-decoration: none;
+	padding: 5px;
+	display: block;
+	font-weight: bold;
+	cursor: url(icon/blkcrsr2.png), auto;
+	font-size: 22px;
+}
+
+.comp button {
+	text-align: center;
+	clear: both;
+	width: 303px;
+	background-color: white;
+	font-family: blogger sans;
+	border-radius: 7px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+	border: 2px solid white;
+	margin-top: 10px;
+	margin-left: 542px;
+}
+
+.compt:hover {
+	opacity: 0.8;
+}
+
+.txtf {
+	color: #d3ff04;
+	text-align: center;
+	margin-left: 23px;
+	font-size: 16px;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.fme {
+	float: left;
+	margin-top: 30px;
+	width: 655px;
+	text-align: right;
+	color: #ffda76;
+	font-family: blogger sans;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.smb {
+	margin-top: 24px;
+	width: 755px;
+	float: right;
+}
+
+.imgcol {
+	height: 30px;
+	width: 30px;
+	float: left;
+	margin-right: 5px;
+}
+
+#yt {
+	width: 40px;
+}
+
+.fmsm {
+	margin-top: 20px;
+	margin-right: 15.5px;
+}
+
+.imgcol:hover {
+	opacity: 0.8;
+}
+
+.smb:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.fmsm:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.cpr8 {
+	color: black;
+	font-size: 12px;
+	margin-top: 30px;
+	text-align: right;
+	font-family: blogger-sans;
+	font-weight: bold;
+	background-color: silver;
+}
+
+
+@media screen and (min-width: 1441px) {
+.footer {
+	width: 100%;
+}
+
+.bottomicon img {
+	margin-left: 100%;
+}
+
+.comp button {
+	margin-left: 40%;
+}
+
+.fme {
+	margin-left: 11%;
+}
+
+.smb {
+	margin-right: 13%;
+}
+
+}
+
+	</style>
+	
+	</head>
+	
+	<body>
+	
+	<div class = "topicon" id = "bttop"> <a href = "file:///D:/HTML%205/New%20Website/Web7.html"> <img src = "icon/logo21.png"> </a> </div>
+	
+	<div class = "nav">
+	<ul>
+	
+	<li> <a href = "file:///D:/HTML%205/New%20Website/Web9.html"> ●  HOME  ● </a> </li>
+	<li> <a href = "file:///D:/HTML%205/New%20Website/About.html" target = "_blank"> ●  ABOUT  ● </a> </li>
+	
+	<li> <a href = "file:///D:/HTML%205/Website/EXM.html" target = "_blank"> ●  CASES  ● </a> 
+	<ul>
+	<li> <a href = "file:///D:/HTML%205/Website/EXM.html" target = "_blank"> ●  SERIAL KILLINGS  ● </a> </li>
+	<li class = "active"> <a class = "activea" href = "file:///D:/HTML%205/New%20Website/About.html#part3" target = "_blank"> ●  CRIMINAL GANG  ● </a> </li>
+	<li> <a href = "file:///D:/HTML%205/Website/EXM.html" target = "_blank"> ●  SECRET KILLER  ● </a> </li>
+	<li> <a href = "file:///D:/HTML%205/Website/EXM.html" target = "_blank"> ●  ADDITIONAL CASES  ● </a> </li>
+	</ul>
+	</li>
+	
+	<li> <a href = "file:///D:/HTML%205/Test%208.html" target = "_blank"> ●  MYSTERIES  ● </a>
+	<ul>
+	<li> <a href = "file:///D:/HTML%205/Website/EXM.html" target = "_blank"> ●  SEAL THIEF  ● </a> </li>
+	<li> <a href = "file:///D:/HTML%205/Website/EXM.html" target = "_blank"> ●  SUICIDE?  ● </a> </li>
+	<li> <a href = "file:///D:/HTML%205/Website/EXM.html" target = "_blank"> ●  THE JOKER  ● </a> </li>
+	<li> <a href = "file:///D:/HTML%205/Website/EXM.html" target = "_blank"> ●  MR. GHOST  ● </a> </li>
+	</ul>
+	</li>
+	
+	<li> <a href = "file:///D:/HTML%205/Website/EXM.html" target = "_blank"> ●  CONTACT  ● </a> </li>
+	
+	</ul>
+	</div>
+	
+	<div class = "search">
+	<script>
+	(function() {
+    var cx = '001411458845971557440:dnvq7wvxtpw';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+	})();
+	</script>
+	<gcse:search></gcse:search>
+	</div>
+	
+	<h2 class = "title1"> CRIMINAL GANG </h2>
+	
+	<section class = "screen">
+	
+	<div class = "row">
+	
+	<div class = "column">
+	<img src = "img/crgang1.jpg">
+	<h1> TWO DETECTIVES | 01 </h1>
+	<p> The death of a local MP has shocked almost everyone, and now people are at full suspense about what might be going on. While you might think this was an act by the political beneficiaries of his death, everyone here including officer McGill taking a sip of his morning coffee at Dublin Police Department is absolutely certain that it’s not. The case very surely needed..... </p>
+	<p> <a href = "Two detectives 01.html"> <button> Read Mystery </button> </a> </p>
+	</div>
+	
+	<div class = "column">
+	<img src = "img/demo1.jpg">
+	<h1> A Study in Pink </h1>
+	<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+	Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+	Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+	Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim..... </p>
+	<p> <a href = "file:///D:/HTML%205/Website/EXM.html"> <button> Read Mystery </button> </a> </p>
+	</div>
+	
+	<div class = "column">
+	<img src = "img/demo1.jpg">
+	<h1> A Study in Pink </h1>
+	<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+	Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+	Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+	Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim..... </p>
+	<p> <a href = "file:///D:/HTML%205/Website/EXM.html"> <button> Read Mystery </button> </a> </p>
+	</div>
+	
+	<div class = "column">
+	<img src = "img/demo1.jpg">
+	<h1> A Study in Pink </h1>
+	<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+	Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+	Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+	Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim..... </p>
+	<p> <a href = "file:///D:/HTML%205/Website/EXM.html"> <button> Read Mystery </button> </a> </p>
+	</div>
+	
+	</div>
+	
+	<div class = "row2">
+	
+	<div class = "column2">
+	<img src = "img/demo1.jpg">
+	<h1> A Study in Pink </h1>
+	<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+	Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+	Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+	Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim..... </p>
+	<p> <a href = "file:///D:/HTML%205/Website/EXM.html"> <button> Read Mystery </button> </a> </p>
+	</div>
+	
+	<div class = "column2">
+	<img src = "img/demo1.jpg">
+	<h1> A Study in Pink </h1>
+	<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+	Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+	Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+	Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim..... </p>
+	<p> <a href = "file:///D:/HTML%205/Website/EXM.html"> <button> Read Mystery </button> </a> </p>
+	</div>
+	
+	<div class = "column2">
+	<img src = "img/demo1.jpg">
+	<h1> A Study in Pink </h1>
+	<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+	Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+	Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+	Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim..... </p>
+	<p> <a href = "file:///D:/HTML%205/Website/EXM.html"> <button> Read Mystery </button> </a> </p>
+	</div>
+	
+	<div class = "column2">
+	<img src = "img/demo1.jpg">
+	<h1> A Study in Pink </h1>
+	<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+	Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+	Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+	Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim..... </p>
+	<p> <a href = "file:///D:/HTML%205/Website/EXM.html"> <button> Read Mystery </button> </a> </p>
+	</div>
+	
+	</div>
+	
+	</section>
+	
+	<div class = "subtnws">
+	
+	<div class = "ltxt">
+	<h1> <a href = "mailto:detectivemailofficial@gmail.com" target = "_blank"> Subscribe to our Newsletter </a> </h1>
+	<p>Just text me "hi sherlockian" and be notified on every new story!</p>
+	</div>
+	<div class = "rimgs">
+	<div class = "rimg1">
+	<a href = "mailto:detectivemailofficial@gmail.com" target = "_blank"> <img src = "icon/gmailus.png"> </a>
+	</div>
+	<div class = "rimg2">
+	<a href = "http://m.me/detectivemailofficial" target = "_blank"> <img src = "icon/mssngr6.png"> </a>
+	</div>
+	</div>
+	
+	</div>
+	
+	<div class = "tparw">
+	<a href = "#bttop"> <img src = "icon/arrow2.png"> </a>
+	</div>
+
+	<section class = "footer">
+	
+	<div class = "bottomicon"> <a href = "file:///D:/HTML%205/New%20Website/Web7.html"> <img src = "icon/logo21.png"> </a> </div>
+
+	
+	<div class = "leftf">
+	<h1> EXPLORE TOP DETECTIVE </h1>
+	
+	<h2> <a href = "https://store.steampowered.com/search/?term=sherlock" target = "_blank"> GAMES </a> </h2>
+	<h2> <a href = "https://www.imdb.com/list/ls023301310/" target = "_blank"> MOVIES </a> </h2>
+	<h2> <a href = "https://uproxx.com/tv/best-detective-shows-on-netflix-right-now/" target = "_blank"> TV SERIES </a> </h2>
+	<h2> <a href = "https://www.goodreads.com/list/tag/detective" target = "_blank"> BOOKS </a> </h2>
+	
+	</div>
+	
+	<div class = "rightf">
+	<h1> KNOW </h1>
+	
+	 <h2 class = "col1f"> <a href = "https://sherlocked.fandom.com/wiki/Sherlock_Holmes" target = "_blank"> SHERLOCK HOLMES </a> </h2>
+	 <h2 class = "col1f"> <a href = "https://bakerstreet.fandom.com/wiki/John_Watson_(Freeman)" target = "_blank"> DR. JOHN WATSON </a> </h2>
+	 <h2 class = "col1f"> <a href = "https://bakerstreet.fandom.com/wiki/Jim_Moriarty" target = "_blank"> JIM MORIARTY </a> </h2>
+	 <h2 class = "col1f"> <a href = "https://bakerstreet.fandom.com/wiki/Mycroft_Holmes_(Gatiss)" target = "_blank"> MYCROFT HOLMES </a> </h2>
+	 <h2 class = "col2f"> <a href = "https://bakerstreet.fandom.com/wiki/Martha_Louise_Hudson" target = "_blank"> MRS. HUDSON </a> </h2>
+	 <h2 class = "col2f"> <a href = "https://bakerstreet.fandom.com/wiki/Mary_Elizabeth_Watson" target = "_blank"> MARY MORSTAN </a> </h2>
+	 <h2 class = "col2f"> <a href = "https://monk.fandom.com/wiki/Adrian_Monk" target = "_blank"> ADRIAN MONK </a> </h2>
+	
+	</div>
+	
+	<div class = "comp">
+	<button class = "compt"> <a href = "https://store.steampowered.com/search/?term=sherlock" target = "_blank"> + COMPOSE A THRILLER </a> </button>
+	<p class = "txtf"> and become a <i> Sherlockian </i> </p>
+	</div>
+	
+	<div class = "fmsm">
+	<p class = "fme"> FOLLOW ME </p>
+	<div class = "smb">
+	<a href = "https://www.facebook.com/detectivemailofficial/" target = "_blank"> <img class = "imgcol" src = "icon/fb2.png"> </a>
+	<a href = "https://twitter.com/Anmone_Farabi" target = "_blank"> <img class = "imgcol" src = "icon/twitter2.png"> </a>
+	<a href = "https://www.instagram.com/anmone.farabi/" target = "_blank"> <img class = "imgcol" src = "icon/insta2.png"> </a>
+	<a href = "https://www.youtube.com/c/THEPHILOSOPHYIS" target = "_blank"> <img id = "yt" class = "imgcol" src = "icon/yt2.png"> </a>
+	<a href = "https://github.com/anmonefarabi" target = "_blank"> <img class = "imgcol" src = "icon/gthb2.png"> </a>
+	</div>
+	</div>
+	
+	<p class = "cpr8"> © 2019 THE SHERLOCKIAN </p>
+	
+	</section>
+	
+	</body>
+	</html>
