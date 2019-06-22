@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html lang = "en">
 	<head>
-	<title> The Sherlockian | HOME </title>
+	<title>The Sherlockian | CASES</title>
 	<meta charset = "UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
@@ -45,6 +45,7 @@ body {
 .topicon img {
 	width: 300px;
 	height: 60px;
+	margin-bottom: 50px;
 }
 
 
@@ -56,6 +57,7 @@ body {
 .topicon img {
 	width: 160%;
 	height: 160%;
+	margin-bottom: 20%;
 }
 
 }
@@ -70,133 +72,10 @@ body {
 .topicon img {
 	width: 100%;
 	height: 100%;
-}
-
-}
-
-
-.logo {
-	margin-left: 105px;
-	height: 150px;
-	width: 150px;
-	float: left;
-	border-bottom: 2px solid black;
-}
-
-
-@media screen and (max-width: 721px) {
-.logo {
-	margin-left: 150%;
-    width: 120%;
-	height: 120%;
-}
-
-}
-
-
-@media screen and (min-width: 1441px) {
-.logo {
-    width: 20%;
-	height: 20%;
-}
-
-}
-
-
-.typewriter {
-	width: 930px;
-	margin-left: 45px;
-	margin-top: 59px;
-	padding: 5px;
-	float: left;
-}
-
-.typewriter h1 {
-	width: 930px;
-	overflow: hidden;
-	border-right: 5px solid orange;
-	white-space: nowrap;
-	margin: auto;
-	letter-spacing: 5px;
-	animation: 
-    typing 5.5s steps(45, end) infinite,
-    blink-caret .75s steps(1, end) infinite;
-}
-
-@keyframes typing {
-  from { width: 0; }
-  to { width: 100%; }
-}
-
-@keyframes blink-caret {
-  from, to { border-color: transparent; }
-  50% { border-color: orange; }
-}
-
-
-@media screen and (max-width: 721px) {
-.typewriter {
 	margin-bottom: 20%;
 }
 
-
-.typewriter h1 {
-    font-size: 250%;
-	animation: 
-    typing 9.5s steps(60, end) infinite,
-    blink-caret 2s steps(1, end) infinite;
 }
-
-@keyframes typing {
-  from { width: 0; }
-  to { width: 140%; }
-}
-
-}
-
-
-@media screen and (min-width: 1441px) {
-.typewriter {
-	margin-top: 10%;
-}
-
-.typewriter h1 {
-    font-size: 200%;
-}
-
-@keyframes typing {
-  from { width: 0; }
-  to { width: 124%; }
-}
-
-}
-
-
-.quoter {
-	margin-left: 590px;
-	font-family: Courgette;
-	font-size: 30px;
-	color: maroon;
-}
-
-
-@media screen and (max-width: 721px) {
-.quoter {
-	float: left;
-	font-size: 300%;
-	font-weight: bold;
-}
-
-}
-
-
-@media screen and (min-width: 1441px) {
-.quoter {
-	font-size: 220%;
-}
-
-}
-
 
 .nav {
 	clear: both;
@@ -376,472 +255,370 @@ ul li.active {
 }
 
 
-.row {
-	width: 1360px;
-	height: 600px;
+@media screen and (max-width: 721px) {
+.sec1 {
+    width: 100%;
+  }
+}
+
+.sec1 {
 	clear: both;
+	width: 1100px;
+	margin-left: 95px;
+	height: 300px;
+	margin-top: 30px;
 }
 
-.column {
+.left1 {
 	float: left;
-	padding: 5px;
-	transition: 0.3s;
-	border-radius: 5px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
-	width: 385px;
-	height: 510px;
+	width: 800px;
+}
+
+.left1 p {
+	background-image: url("img/cases1.jpg");
+	width: 700px;
+	height: 400px;
 	text-align: center;
-	margin-left: 45px;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	background-color: rgba(255,253,208,0.5);
-	font-family: Adobe Caslon Pro;
+	margin-left: 100px;
 }
 
-.column p {
-	font-size: 17px;
-}
-
-.column img {
-	width: 385px;
-	height: 220px;
-}
-
-.column button {
-  font-family: Arial;
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: black;
-  text-align: center;
-  cursor: pointer;
-  width: 385px;
-  font-size: 19px;
-}
-
-.column a {
-	display: block;
-	width: 385px;
+.left1 a {
+	display: inline-block;
+	height: 30px;
 	color: white;
 	text-decoration: none;
+	font: blogger-sans;
+	margin: auto;
 }
 
-
-@media screen and (max-width: 721px) {
-.column {
-    width: 100%;
-	height: 300%;
-	margin-bottom: 6%;
-}
- 
-.column img {
-    width: 100%;
-	height: 50%;
-}
-
-.column button {
-	margin-top: 4%;
-	font-size: 150%;
-	width: 350%;
-	height: 400%;
+.left1 button {
+	margin: auto;
+	margin-top: 180px;
+	width: 100px;
+	cursor: pointer;
+	padding: 5px;
+	border-radius: 10px;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	font-size: 16px;
+	font-family: blogger sans;
 }
 
-.column h1 {
-	font-size: 500%;
+.left1 button:hover {
+	background-color: white;
+	color: black;
+	border: 2px solid black;
 }
 
-.column p {
-	font-size: 350%;
+.right1 {
+	float: left;
+	width:  200px;
+	height: 400px;
+	background-color: rgba(0,0,0,0.8);
+	border-left: 2px solid black;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 
+.right1 h1 {
+	width: 200px;
+	height: 400px;
+	margin-left: 30px;
+	font-size: 30px;
+	margin-top: 175px;
+	color: red;
+	font-family: blogger sans;
 }
 
-
-@media screen and (min-width: 1441px) {
-.row {
-	width: 133%;
-	height: 100%;
-}
-
-.column {
-    width: 20%;
-	height: 114%;
-	margin-left: 3%;
-	margin-bottom: 3%;
-}
- 
-.column img {
-    width: 100%;
-	height: 40%;
-}
-
-.column button {
-	font-size: 120%;
-	width: 131%;
-}
-
-.column h1 {
-	font-size: 200%;
-}
-
-.column p {
-	font-size: 150%;
-}
-
-}
-
-
-.row: :after {
+.sec1: :after {
 	content: "";
 	clear: both;
 	display: table;
 }
 
-.column:hover {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
-	padding: 10px;
-	transition-timing-function: linear;
-	transition-delay: .6s;
-}
-
-.column p, h1:hover {
-	cursor: context-menu;
-}
-
-.column button:hover {
-	opacity: 0.7;
-	text-decoration: underline;
-}
-
-.title2 {
+.desc1 {
 	clear: both;
-	width: 1255px;
-	margin-left: 45px;
-	padding: 10px;
-	background-image: linear-gradient(to bottom right, yellow, #FF4500);
-	text-align: center;
-	font-family: blogger sans;
-	border-radius: 5px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-	border-bottom: 3px solid #2d2d2d;
+	width: 902px;
+	font-family: times new roman;
+	margin-left: 195px;
+	font-size: 22px;
+	background-color: rgba(0,0,0,0.1);
 }
-
 
 @media screen and (max-width: 721px) {
-.title2 {
-	width: 374%;
-	font-size: 500%;
+.sec2 {
+    width: 100%;
   }
 }
 
-
-@media screen and (min-width: 1441px) {
-.title2 {
-	width: 91%;
-	font-size: 200%;
-  }
-  
-}
-
-
-.row2 {
-	width: 1360px;
-	height: 600px;
+.sec2 {
 	clear: both;
+	width: 1100px;
+	margin-left: 95px;
+	height: 300px;
+	margin-top: 70px;
 }
 
-.column2 {
+.left2 {
 	float: left;
-	padding: 5px;
-	transition: 0.3s;
-	border-radius: 5px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
-	width: 385px;
-	height: 510px;
+	width: 800px;
+}
+
+.left2 p {
+	background-image: url("img/cases2.jpg");
+	width: 700px;
+	height: 400px;
 	text-align: center;
-	margin-left: 45px;
-	margin-top: 15px;
-	margin-bottom: 75px;
-	background-color: rgba(255,253,208, 0.5);
-	font-family: Adobe Caslon Pro;
+	margin-left: 100px;
 }
 
-.column2 p {
-	font-size: 17px;
-}
-
-.column2 img {
-	width: 385px;
-	height: 220px;
-}
-
-.column2 button {
-  font-family: Arial;
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: black;
-  text-align: center;
-  cursor: pointer;
-  width: 385px;
-  font-size: 19px;
-}
-
-.column2 a {
-	display: block;
-	width: 385px;
+.left2 a {
+	display: inline-block;
+	height: 30px;
 	color: white;
 	text-decoration: none;
+	font: blogger-sans;
+	margin: auto;
 }
 
-
-@media screen and (max-width: 721px) {
-.column2 {
-    width: 100%;
-	height: 300%;
-	margin-bottom: 6%;
-}
- 
-.column2 img {
-    width: 100%;
-	height: 50%;
-}
-
-.column2 button {
-	margin-top: 4%;
-	font-size: 150%;
-	width: 350%;
-	height: 400%;
-}
-
-.column2 h1 {
-	font-size: 500%;
-}
-
-.column2 p {
-	font-size: 350%;
-}
-
-}
-
-
-@media screen and (min-width: 1441px) {
-.row2 {
-	width: 133%;
-	height: 100%;
-}
-
-.column2 {
-    width: 20%;
-	height: 114%;
-	margin-left: 3%;
-	margin-bottom: 3%;
-}
- 
-.column2 img {
-    width: 100%;
-	height: 40%;
-}
-
-.column2 button {
-	font-size: 120%;
-	width: 131%;
-}
-
-.column2 h1 {
-	font-size: 200%;
-}
-
-.column2 p {
-	font-size: 150%;
-}
-
-}
-
-
-.row2: :after {
-	content: "";
-	clear: both;
-	display: table;
-}
-
-.column2:hover {
-	padding: 10px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
-	transition-timing-function: linear;
-	transition-delay: .6s;
-}
-
-.column2 p, h1:hover {
-	cursor: context-menu;
-}
-
-.column2 button:hover {
-	opacity: 0.7;
-	text-decoration: underline;
-}
-
-.poster1 img {
-	clear: both;
-	margin-bottom: 75px;
-	margin-left: 45px;
-	border-bottom: 3px solid gray;
-	height: 634.5px;
-	width: 1275px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
-}
-
-@media screen and (max-width: 721px) {
-.poster1 img {
-	width: 376%;
-  }
-  
-}
-
-
-@media screen and (min-width: 1441px) {
-.poster1 img {
-	margin-left: 4%;
-	width: 90%;
-	height: 33%;
-  }
-  
-}
-
-
-.title3 {
-	clear: both;
-	width: 1255px;
-	margin-left: 45px;
-	padding: 10px;
-	background-image: linear-gradient(to bottom right, yellow, #FF4500);
-	text-align: center;
-	font-family: blogger sans;
-	border-radius: 5px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-	border-bottom: 3px solid #2d2d2d;
-}
-
-
-@media screen and (max-width: 721px) {
-.title3 {
-	width: 374%;
-	font-size: 500%;
-  }
-}
-
-
-@media screen and (min-width: 1441px) {
-.title3 {
-	width: 91%;
-	font-size: 200%;
-  }
-  
-}
-
-
-.row3 {
-	width: 1360px;
-	height: 580px;
-	clear: both;
-}
-
-.column3 {
-	float: left;
+.left2 button {
+	margin: auto;
+	margin-top: 180px;
+	width: 100px;
+	cursor: pointer;
 	padding: 5px;
-	transition: 0.3s;
-	border-radius: 5px;
-	background-image: linear-gradient(to bottom right, black, gray);
-	width: 350px;
-	height: 510px;
-	text-align: center;
-	margin-left: 55.5px;
-	margin-top: 15px;
-	margin-right: 30px;
-	margin-bottom: 10px;
-	background-color: #3d3d3d;
-	font-family: Georgia;
+	border-radius: 10px;
+	background-color: rgba(0,0,0,0.5);
 	color: white;
+	font-size: 16px;
+	font-family: blogger sans;
 }
 
-.column3 img {
-	width: 350px;
-	height: 330px;
+.left2 button:hover {
+	background-color: white;
+	color: black;
+	border: 2px solid black;
 }
 
-
-@media screen and (max-width: 721px) {
-.column3 {
-	margin-left: 3.30%;
-	margin-bottom: 6%;
-    width: 100%;
-	height: 300%;
-}
- 
-.column3 img {
-    width: 100%;
-	height: 70%;
+.right2 {
+	float: left;
+	width:  200px;
+	height: 400px;
+	background-color: rgba(0,0,0,0.8);
+	border-left: 2px solid black;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 
-.column3 h1 {
-	font-size: 500%;
+.right2 h1 {
+	width: 200px;
+	height: 400px;
+	margin-left: 30px;
+	font-size: 30px;
+	margin-top: 175px;
+	color: red;
+	font-family: blogger sans;
 }
 
-.column3 p {
-	font-size: 350%;
-}
-
-}
-
-
-@media screen and (min-width: 1441px) {
-.row3 {
-	width: 133%;
-	height: 100%;
-}
-
-.column3 {
-    width: 20%;
-	height: 114%;
-	margin-left: 2%;
-	margin-bottom: 3%;
-}
- 
-.column3 img {
-    width: 100%;
-	height: 20%;
-}
-
-.column3 h1 {
-	font-size: 200%;
-}
-
-.column3 p {
-	font-size: 150%;
-	padding-bottom: 5%;
-}
-
-}
-
-
-.row3: :after {
+.sec2: :after {
 	content: "";
 	clear: both;
 	display: table;
 }
 
-.column3:hover {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
-	padding: 10px;
-	transition-timing-function: linear;
-	transition-delay: .6s;
+.desc2 {
+	clear: both;
+	width: 902px;
+	font-family: times new roman;
+	margin-left: 195px;
+	font-size: 22px;
+	background-color: rgba(0,0,0,0.1);
 }
 
-.column3 p, h1:hover {
-	cursor: context-menu;
+@media screen and (max-width: 721px) {
+.sec3 {
+    width: 100%;
+  }
 }
+
+.sec3 {
+	clear: both;
+	width: 1100px;
+	margin-left: 95px;
+	height: 300px;
+	margin-top: 70px;
+}
+
+.left3 {
+	float: left;
+	width: 800px;
+}
+
+.left3 p {
+	background-image: url("img/cases3.jpg");
+	width: 700px;
+	height: 400px;
+	text-align: center;
+	margin-left: 100px;
+}
+
+.left3 a {
+	display: inline-block;
+	height: 30px;
+	color: white;
+	text-decoration: none;
+	font: blogger-sans;
+	margin: auto;
+}
+
+.left3 button {
+	margin: auto;
+	margin-top: 180px;
+	width: 100px;
+	cursor: pointer;
+	padding: 5px;
+	border-radius: 10px;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	font-size: 16px;
+	font-family: blogger sans;
+}
+
+.left3 button:hover {
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+}
+
+.right3 {
+	float: left;
+	width:  200px;
+	height: 400px;
+	background-color: rgba(0,0,0,0.8);
+	border-left: 2px solid black;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.right3 h1 {
+	width: 200px;
+	height: 400px;
+	margin-left: 30px;
+	font-size: 30px;
+	margin-top: 175px;
+	color: red;
+	font-family: blogger sans;
+}
+
+.sec3: :after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.desc3 {
+	clear: both;
+	width: 902px;
+	font-family: times new roman;
+	margin-left: 195px;
+	font-size: 22px;
+	background-color: rgba(0,0,0,0.1);
+}
+
+@media screen and (max-width: 721px) {
+.sec4 {
+    width: 100%;
+  }
+}
+
+.sec4 {
+	clear: both;
+	width: 1100px;
+	margin-left: 95px;
+	height: 300px;
+	margin-top: 70px;
+}
+
+.left4 {
+	float: left;
+	width: 800px;
+}
+
+.left4 p {
+	background-image: url("img/cases4.jpg");
+	width: 700px;
+	height: 400px;
+	text-align: center;
+	margin-left: 100px;
+}
+
+.left4 a {
+	display: inline-block;
+	height: 30px;
+	color: white;
+	text-decoration: none;
+	font: blogger-sans;
+	margin: auto;
+}
+
+.left4 button {
+	margin: auto;
+	margin-top: 180px;
+	width: 100px;
+	cursor: pointer;
+	padding: 5px;
+	border-radius: 10px;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	font-size: 16px;
+	font-family: blogger sans;
+}
+
+.left4 button:hover {
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+}
+
+.right4 {
+	float: left;
+	width:  200px;
+	height: 400px;
+	background-color: rgba(0,0,0,0.8);
+	border-left: 2px solid black;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.right4 h1 {
+	width: 200px;
+	height: 400px;
+	margin-left: 30px;
+	font-size: 30px;
+	margin-top: 175px;
+	color: red;
+	font-family: blogger sans;
+}
+
+.sec4: :after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.desc4 {
+	clear: both;
+	width: 902px;
+	font-family: times new roman;
+	margin-left: 195px;
+	font-size: 22px;
+	background-color: rgba(0,0,0,0.1);
+}
+
+
+@media screen and (min-width: 1441px) {
+.screen {
+	margin-left: 13%;
+}
+
+}
+
 
 .subtnws {
 	clear: both;
@@ -921,28 +698,6 @@ ul li.active {
 	content: "";
 	clear: both;
 	display: table;
-}
-
-@media screen and (max-width: 721px) {
-.subtnws h1 {
-	font-size: 300%;
-	font-weight: bold;
-}
-
-.subtnws p {
-	font-size: 220%;
-}
-
-.rimg1 img {
-	height: 125%;
-	width: 125%;
-}
-
-.rimg2 img {
-	height: 125%;
-	width: 125%;
-}
-
 }
 
 
@@ -1213,25 +968,13 @@ ul li.active {
 	
 	<div class = "topicon" id = "bttop"> <a href = "file:///D:/HTML%205/New%20Website/Web7.html"> <img src = "icon/logo21.png"> </a> </div>
 	
-	<section class = "banner">
-	
-	<img class = "logo"; src = "img/SH01.png">
-	
-	<div class="typewriter">
-	<h1> <u> "There is nothing more deceptive than an obvious fact." </u> </h1>
-	<br> 
-	<p class = "quoter"> – Sherlock Holmes </p>
-	</div>
-
-	</section>
-	
 	<div class = "nav">
 	<ul>
 	
-	<li class = "active"> <a class = "activea" href = "file:///D:/HTML%205/New%20Website/Web9.html"> ●  HOME  ● </a> </li>
-	<li> <a href = "About.html" target = "_blank"> ●  ABOUT  ● </a> </li>
+	<li> <a href = "file:///D:/HTML%205/New%20Website/Web9.html"> ●  HOME  ● </a> </li>
+	<li> <a href = "file:///D:/HTML%205/New%20Website/About.html" target = "_blank"> ●  ABOUT  ● </a> </li>
 	
-	<li> <a href = "Cases.html" target = "_blank"> ●  CASES  ● </a> 
+	<li class = "active"> <a class = "activea" href = "file:///D:/HTML%205/Website/EXM.html" target = "_blank"> ●  CASES  ● </a> 
 	<ul>
 	<li> <a href = "file:///D:/HTML%205/Website/EXM.html" target = "_blank"> ●  SERIAL KILLINGS  ● </a> </li>
 	<li> <a href = "file:///D:/HTML%205/New%20Website/About.html#part3" target = "_blank"> ●  CRIMINAL GANG  ● </a> </li>
@@ -1249,7 +992,7 @@ ul li.active {
 	</ul>
 	</li>
 	
-	<li> <a href = "Contact.html" target = "_blank"> ●  CONTACT  ● </a> </li>
+	<li> <a href = "file:///D:/HTML%205/Website/EXM.html" target = "_blank"> ●  CONTACT  ● </a> </li>
 	
 	</ul>
 	</div>
@@ -1269,111 +1012,67 @@ ul li.active {
 	<gcse:search></gcse:search>
 	</div>
 	
-	<h2 class = "title1"> LATEST CASES </h2>
+	<h2 class = "title1"> CASE FILES </h2>	
 	
-	<div class = "row">
+	<section class = "screen">
 	
-	<div class = "column">
-	<img src = "img/demo1.jpg"> <br>
-	<h1> A Study in Pink </h1> <br>
-	<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-	Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-	Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-	Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim..... </p> <br>
-	<p> <a href = "file:///D:/HTML%205/Website/EXM.html"> <button> Read Mystery </button> </a> </p>
+	<div class = "sec1">
+	<div class = "left1">
+	<p> <a href = "file:///D:/HTML%205/New%20Website/Web9.html"> <button> 🌐 VIEW </button> </a> </p>
 	</div>
 	
-	<div class = "column">
-	<img src = "img/demo1.jpg"> <br>
-	<h1> A Study in Pink </h1> <br>
-	<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-	Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-	Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-	Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim..... </p> <br>
-	<p> <a href = "file:///D:/HTML%205/Website/EXM.html"> <button> Read Mystery </button> </a> </p>
+	<div class = "right1">
+	<h1> SERIAL <br> KILLINGS </h1>
+	</div>
 	</div>
 	
-	<div class = "column">
-	<img src = "img/demo1.jpg"> <br>
-	<h1> A Study in Pink </h1> <br>
-	<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-	Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-	Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-	Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim..... </p> <br>
-	<p> <a href = "file:///D:/HTML%205/Website/EXM.html"> <button> Read Mystery </button> </a> </p>
+	<div class = "desc1">
+	<p> Solve the cases of some of the most cold-blooded criminals ever. Try to keenly observe the sequences and the way of killings, as that is still the best and most effective way of catching the serial killers. </p>
 	</div>
 	
+	<div class = "sec2">
+	<div class = "left2">
+	<p> <a href = "file:///D:/HTML%205/New%20Website/Web9.html"> <button> 🌐 VIEW </button> </a> </p>
 	</div>
 	
-	<h2 class = "title2"> TOP RATED </h2>
-	
-	<div class = "row2">
-	
-	<div class = "column2">
-	<img src = "img/demo1.jpg"> <br>
-	<h1> A Study in Pink </h1> <br>
-	<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-	Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-	Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-	Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim..... </p> <br>
-	<p> <a href = "file:///D:/HTML%205/Website/EXM.html"> <button> Read Mystery </button> </a> </p>
+	<div class = "right2">
+	<h1> CRIMINAL <br> GANG </h1>
+	</div>
 	</div>
 	
-	<div class = "column2">
-	<img src = "img/demo1.jpg"> <br>
-	<h1> A Study in Pink </h1> <br>
-	<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-	Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-	Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-	Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim..... </p> <br>
-	<p> <a href = "file:///D:/HTML%205/Website/EXM.html"> <button> Read Mystery </button> </a> </p>
+	<div class = "desc2">
+	<p> The intensified cases of a joint effort from some of the top criminal masterminds, marksmen, bruisers, and gunslingers are included in the cases of this file. It can be harder to find the boss as you have to solve and catch the associates and capos first. </p>
 	</div>
 	
-	<div class = "column2">
-	<img src = "img/demo1.jpg"> <br>
-	<h1> A Study in Pink </h1> <br>
-	<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-	Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-	Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-	Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim..... </p> <br>
-	<p> <a href = "file:///D:/HTML%205/Website/EXM.html"> <button> Read Mystery </button> </a> </p>
+	<div class = "sec3">
+	<div class = "left3">
+	<p> <a href = "file:///D:/HTML%205/New%20Website/Web9.html"> <button> 🌐 VIEW </button> </a> </p>
 	</div>
 	
+	<div class = "right3">
+	<h1> SECRET <br> KILLER </h1>
+	</div>
 	</div>
 	
-	<div class = "poster1">
-	<img src = "img/poster6.png">
+	<div class = "desc3">
+	<p> While you may find inter-connections in serial killings and gang murders, when it comes to a secret killer, it can get real hard, as first youhave to find why, and then who. But you will have as little as no idea at all, in these cases at the beginning. </p>
 	</div>
 	
-	<h2 class = "title3"> TOP CONTRIBUTORS </h2>
-	
-	<div class = "row3">
-	
-	<div class = "column3">
-	<img src = "img/qm3.jpg"> <br>
-	<h1> Sherlock Holmes </h1> <br>
-	<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-	Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-	Donec quam felis. </p>
+	<div class = "sec4">
+	<div class = "left4">
+	<p> <a href = "file:///D:/HTML%205/New%20Website/Web9.html"> <button> 🌐 VIEW </button> </a> </p>
 	</div>
 	
-	<div class = "column3">
-	<img src = "img/qm3.jpg"> <br>
-	<h1> Sherlock Holmes </h1> <br>
-	<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-	Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-	Donec quam felis. </p>
+	<div class = "right4">
+	<h1> ADDITIONAL <br> CASES </h1>
+	</div>
 	</div>
 	
-	<div class = "column3">
-	<img src = "img/qm3.jpg"> <br>
-	<h1> Sherlock Holmes </h1> <br>
-	<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-	Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-	Donec quam felis. </p>
+	<div class = "desc4">
+	<p> The additional cases are formed up by the Sherlockians, meaning, other fans or contributors of this page. Read to find some mind blowing pieces, and wide variations from the cases written by me. </p>
 	</div>
 	
-	</div>
+	</section>
 	
 	<div class = "subtnws">
 	
@@ -1425,7 +1124,7 @@ ul li.active {
 	</div>
 	
 	<div class = "comp">
-	<button class = "compt"> <a href = "Compose.html" target = "_blank"> + COMPOSE A THRILLER </a> </button>
+	<button class = "compt"> <a href = "https://store.steampowered.com/search/?term=sherlock" target = "_blank"> + COMPOSE A THRILLER </a> </button>
 	<p class = "txtf"> and become a <i> Sherlockian </i> </p>
 	</div>
 	
