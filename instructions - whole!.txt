@@ -7,7 +7,7 @@ outline - 374 charecters with 5 dots at end
 give <br>, <br><br> tags where necessary. then
 divide the story in 4 parts to add in 4 <p> tags.
 
-3 images - 1- (4961 x 3508 px) 72ppi (widxhght)
+3 images - 1- (4961 x 3508 px) 72ppi (widxhght) xx *see below (!)
 		(export -for web)    athmb
 	   2- (large) a1
 	   3- (large) a2
@@ -22,3 +22,6 @@ index will have a diff name for-  series chapters
 
 fb comments plugin - 1255px, 100
 fb like plugin - as it is
+
+! Important- site is taking too much time to load, reduce image size -
+ save as - low (4)
