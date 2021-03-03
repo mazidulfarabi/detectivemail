@@ -3,7 +3,7 @@
 3. Publish
 4. Edit with Elementor (Beside quick Edit)
 5. Edit Title, Case (No.), Chapter (optional)
-6. Edit and change pic
+6. Edit and change pic - only upload 1024x680px pic
 7. Copy Paste Writing - Dancing Script Font, Visual Editor
 8. Make a deduction - choices and answers - only content - Dancing Script
 9. Update
