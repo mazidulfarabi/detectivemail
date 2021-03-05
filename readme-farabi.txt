@@ -12,5 +12,6 @@
 12. Commit and push changes
 13. Copy the ZIP file to clone folder and extract
 14. Delete the ZIP file since it's extracted
-15. Commit and push changes
-16. Delete Cache to see results
+15. Add DM.jpg to content uploads 2021 2 for yoast script schema graph
+16. Commit and push changes
+17. Delete Cache to see results
