@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments for DETECTIVEMAIL	</title>
+	Comments for Detectivemail	</title>
 	<atom:link href="https://detectivemail.com/comments/feed/" rel="self" type="application/rss+xml" />
 	<link>https://detectivemail.com</link>
 	<description>Crime Stories</description>
-	<lastBuildDate>Sat, 13 Mar 2021 16:20:15 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 16 Mar 2021 21:02:58 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.6.2</generator>
+	<generator>https://wordpress.org/?v=5.7</generator>
 </channel>
 </rss>
