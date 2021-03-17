@@ -266,7 +266,7 @@ flexibility(document.documentElement);
   html.wp-dark-mode-active iframe:not(.wp-dark-mode-ignore), html.wp-dark-mode-active iframe *:not(.wp-dark-mode-ignore), html.wp-dark-mode-active input:not(.wp-dark-mode-ignore), html.wp-dark-mode-active select:not(.wp-dark-mode-ignore), html.wp-dark-mode-active textarea:not(.wp-dark-mode-ignore), html.wp-dark-mode-active button:not(.wp-dark-mode-ignore) {
     background: var(--wp-dark-mode-btn) !important; }</style>                <script>
                     (function () {
-                        window.wpDarkMode = {"config":{"brightness":"100","contrast":"90","sepia":"10"},"enable_preset":true,"customize_colors":false,"colors":{"bg":"#1B2836","text":"#fff","link":"#459BE6"},"enable_frontend":true,"enable_backend":true,"enable_os_mode":false,"excludes":"","includes":"","is_excluded":false,"remember_darkmode":false,"default_mode":true,"images":"","is_pro_active":false,"is_ultimate_active":false,"pro_version":0,"is_elementor_editor":false,"is_block_editor":false,"frontend_mode":false};
+                        window.wpDarkMode = {"config":{"brightness":"100","contrast":"90","sepia":"10"},"enable_preset":true,"customize_colors":false,"colors":{"bg":"#1B2836","text":"#fff","link":"#459BE6"},"enable_frontend":true,"enable_backend":true,"enable_os_mode":false,"excludes":"","includes":"","is_excluded":false,"remember_darkmode":false,"default_mode":false,"images":"","is_pro_active":false,"is_ultimate_active":false,"pro_version":0,"is_elementor_editor":false,"is_block_editor":false,"frontend_mode":false};
 
                         const is_saved = localStorage.getItem('wp_dark_mode_active');
 
@@ -363,7 +363,8 @@ flexibility(document.documentElement);
 <link rel="icon" href="https://detectivemail.com/wp-content/uploads/detectivemail-logo.jpg" sizes="192x192">
 <link rel="apple-touch-icon" href="https://detectivemail.com/wp-content/uploads/detectivemail-logo.jpg">
 <meta name="msapplication-TileImage" content="https://detectivemail.com/wp-content/uploads/detectivemail-logo.jpg">
-</head>
+		<style id="wp-custom-css">@media only screen and (max-width: 800px) {.entry-title{margin-top:200px;}}</style>
+		</head>
 
 <body itemtype="https://schema.org/Blog" itemscope="itemscope" class="post-template-default single single-post postid-1001 single-format-standard ast-desktop ast-separate-container ast-no-sidebar astra-3.1.2 ast-header-custom-item-outside ast-blog-single-style-1 ast-single-post ast-inherit-site-logo-transparent ast-theme-transparent-header ast-normal-title-enabled elementor-default elementor-kit-27 elementor-page elementor-page-1001">
 <div class="hfeed site" id="page">
@@ -767,7 +768,7 @@ var astra = {"break_point":"921","isRtl":""};
 </script>
 <script src="https://detectivemail.com/wp-content/themes/astra/assets/js/minified/style.min.js?ver=3.1.2" id="astra-theme-js-js"></script>
 <script id="wp-dark-mode-frontend-js-extra">
-var wpDarkMode = {"config":{"brightness":"100","contrast":"90","sepia":"10"},"enable_preset":"1","customize_colors":"","colors":{"bg":"#1B2836","text":"#fff","link":"#459BE6"},"enable_frontend":"1","enable_backend":"1","enable_os_mode":"","excludes":"","includes":"","is_excluded":"","remember_darkmode":"","default_mode":"1","images":"","is_pro_active":"","is_ultimate_active":"","pro_version":"0","is_elementor_editor":"","is_block_editor":"","frontend_mode":""};
+var wpDarkMode = {"config":{"brightness":"100","contrast":"90","sepia":"10"},"enable_preset":"1","customize_colors":"","colors":{"bg":"#1B2836","text":"#fff","link":"#459BE6"},"enable_frontend":"1","enable_backend":"1","enable_os_mode":"","excludes":"","includes":"","is_excluded":"","remember_darkmode":"","default_mode":"","images":"","is_pro_active":"","is_ultimate_active":"","pro_version":"0","is_elementor_editor":"","is_block_editor":"","frontend_mode":""};
 </script>
 <script src="https://detectivemail.com/wp-content/plugins/wp-dark-mode//assets/js/frontend.min.js?ver=2.0.3" id="wp-dark-mode-frontend-js"></script>
 <script src="https://detectivemail.com/wp-includes/js/wp-embed.min.js?ver=5.7" id="wp-embed-js"></script>
