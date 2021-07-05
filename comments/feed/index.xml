@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments for Detectivemail	</title>
-	<atom:link href="https://detectivemail.com/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>https://detectivemail.com</link>
+	<atom:link href="https://mazidulfarabi.github.io/detectivemail.github.io/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>https://mazidulfarabi.github.io/detectivemail.github.io</link>
 	<description>Crime Stories</description>
-	<lastBuildDate>Tue, 23 Mar 2021 17:53:36 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 05 Jul 2021 14:45:01 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.7</generator>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
 </channel>
 </rss>
