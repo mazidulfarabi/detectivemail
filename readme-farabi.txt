@@ -10,7 +10,7 @@
 8. Make a deduction - choices and answers
 9. Update
 10. Generate Wp to Static and download ZIP file
-11. Delete everything at clone folder except i)CNAME(optional), ii).git, iii).idea, iv)sitemap.xml, v)readme-farabi.txt, vi) readme.md
+11. Delete everything at clone folder except i)CNAME(optional), ii).git, iii).idea, iv)readme-farabi.txt, v) readme.md
 12. Commit and push changes
 13. Copy the ZIP file to clone folder and extract
 14. Delete the ZIP file since it's extracted
